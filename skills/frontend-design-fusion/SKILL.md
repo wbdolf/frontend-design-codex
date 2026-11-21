@@ -1,13 +1,13 @@
 ---
-name: frontend-design-codex
-description: Create distinctive, production-grade frontend interfaces in Codex. Use when the user asks to build, redesign, restyle, modernize, or visually polish web components, pages, dashboards, apps, prototypes, games, hero sections, or existing UI, especially when they want non-generic AI aesthetics, strong typography, color, motion, layout, responsive behavior, and browser-verified implementation.
+name: frontend-design-fusion
+description: Design and implement frontend interfaces. Use when the user asks to build, redesign, restyle, modernize, or visually polish web components, pages, dashboards, apps, prototypes, games, hero sections, or existing UI, especially when they want non-generic AI aesthetics, strong typography, color, motion, layout, responsive behavior, and browser-verified implementation.
 ---
 
-# Frontend Design Codex
+# Frontend Design Fusion
 
 Use this skill to turn frontend requests into working, production-oriented UI with a clear aesthetic point of view. The goal is not to decorate a default layout. The goal is to design and implement an interface that feels specific to the product, audience, and interaction model.
 
-This skill adapts the public Claude `frontend-design` workflow to Codex. It uses Codex-native capabilities: local file edits, Image Gen when concepting is useful, Browser or Playwright verification, existing project design systems, and mechanical handoff evidence.
+Read linked guides under `references/` relative to this skill directory. Use the current host's available editor, shell, image and browser tools as the task requires. Existing project assets can supply the visual direction. When a capability is unavailable, complete the supported work and identify which requested outputs or runtime checks remain unverified.
 
 ## Scope the work
 
@@ -175,7 +175,7 @@ For queues, assignments and schedules, read the project's requirements and exist
 Match verification to scope. A local repair uses the reproduction and regression checks above. For a new design or redesign, verify the running product through its normal entry point in the user-facing preview.
 
 1. Start the local dev server when needed and record the URL.
-2. Prefer the Codex Browser plugin for local targets. Use Playwright when Browser is unavailable or when scripted screenshots are more reliable.
+2. Open the local target with the host’s browser or the project’s browser automation. Use an available recorder for motion evidence.
 3. Check desktop and mobile widths.
 4. Follow the primary action through to its promised destination or visible result. On forms, try invalid input and correct it. For data views, exercise a relevant empty, pending or error state when it can be reproduced. Use local or simulated data for transactions.
 5. Inspect typography, color, spacing, responsive behavior, icon treatment and asset loading. Reach the main control by keyboard and check its visible focus. Where motion reveals content, check that reduced motion leaves the content visible.

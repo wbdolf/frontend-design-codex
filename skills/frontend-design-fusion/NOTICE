@@ -17,3 +17,6 @@ local skill with equivalent design intent adapted to Codex skill semantics.
 Development edition. The workflow and verification guidance were revised.
 The landing-page guide is independently written and informed by
 https://github.com/elayadesign/ai-design-skills/tree/main/skills/landing-page-design
+
+Cross-platform edition: the skill is now distributed as frontend-design-fusion
+using the Agent Skills format. The earlier Codex edition is credited above.

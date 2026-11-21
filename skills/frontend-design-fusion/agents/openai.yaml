@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frontend Design Fusion"
+  short_description: "Create distinctive production-grade frontend interfaces."
+  default_prompt: "Use $frontend-design-fusion to design and implement a polished non-generic frontend interface, then verify it in a browser."
