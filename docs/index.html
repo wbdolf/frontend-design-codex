@@ -1,0 +1,20 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#211419">
+<title>月亮失物处 · 回声剧场</title><link rel="preload" as="image" href="velvet.webp"><link rel="stylesheet" href="theatre.css?v=passage1"><script defer src="curtain.js"></script><script defer src="theatre.js?v=passage1"></script></head>
+<body><a class="skip" href="#rig">跳到幕绳</a><header class="mast"><a class="brand" href="#stage"><i aria-hidden="true">☾</i> 回声剧场 <small lang="en">ECHO THEATRE</small></a><nav aria-label="主要导航"><a href="#stage">舞台</a><a href="#bill">节目单</a></nav></header>
+<main><section id="stage" aria-labelledby="title"><div class="field"><div class="set"><img class="scenery" src="scenery.webp" alt="月牙悬在柳林上方，一只小狐衔着信站在木台中央。"><span class="moonlight"></span></div>
+<canvas id="drape" aria-hidden="true"></canvas><div class="cornice" aria-hidden="true"></div>
+<button class="loge" id="loge" aria-label="进入七号包厢" disabled><img src="loge.webp" alt=""><span>七号包厢 <i>↗</i></span></button>
+<button id="rig" aria-label="拉绳开幕，也可轻点开幕"><span class="cord"></span><span class="tassel"><i></i></span><strong>向下拉绳 <span aria-hidden="true">↓</span></strong></button>
+<div class="marquee"><p class="actline"><span id="roman">ACT I</span><i></i><span id="actname">第一幕 · 遗失的来信</span></p><h1 id="title">月亮失物处</h1><p id="tagline">今夜，有人把月亮落在了剧场。</p></div></div>
+<div class="apron"><span id="status" role="status">候场</span><span id="instruction">下拉或轻点幕绳开幕</span><button id="replay" hidden>重新开幕 ↺</button></div></section>
+<section id="bill" aria-labelledby="billtitle"><header class="billhead"><p lang="en">THE PLAYBILL</p><h2 id="billtitle">今夜节目单</h2><p class="synopsis">一封寄错的信，把小狐引到一座忘了熄灯的剧场。天亮以前，它要替月亮找到失主。</p></header><div class="actlist">
+<button class="choose" data-act="1"><span class="num">I</span><span><small>第一幕</small><b>遗失的来信</b><em>小狐循着信上的金粉走进柳林。</em></span><span class="go">上台 ↗</span></button>
+<button class="choose" data-act="2"><span class="num">II</span><span><small>第二幕</small><b>归还月光</b><em>包厢里的回信，写着月亮的归途。</em></span><span class="go">上台 ↗</span></button></div></section></main>
+<footer><span>☾　回声剧场</span><a href="#stage">回到舞台 ↑</a></footer>
+<div id="camera-window" hidden inert aria-hidden="true"></div>
+<section id="box" aria-labelledby="boxtitle" hidden inert>
+<div class="room-view"><img src="chamber.webp" loading="lazy" alt="包厢内的铜灯照亮绯红座椅和信封，栏杆外可望见月夜舞台。"></div>
+<div class="room-overlay"><div class="room-nav"><button id="leave"></button><span id="boxact"></span></div>
+<div class="letter"><h2 id="boxtitle">七号包厢</h2><p id="lettercopy"></p><blockquote id="quote"></blockquote></div></div>
+</section>
+</body></html>
