@@ -36,6 +36,8 @@ Choose the scope before applying the sections below.
 
 When the user asks to choose, or a new project's visual direction is undecided, show two or three labeled first-viewport mockups before building out the page. Use the same copy, source assets, data, initial state and viewport dimensions for every option. Present the actual rendered images side by side or as individually viewable previews. Vary the focal subject, its scale and position, or the placement and behavior of the main entry point. Each option should remain distinguishable if the typeface and colors are held constant.
 
+For a text-heavy workbench, vary the reading order around the decision. A field matrix supports checking two values, a timeline supports following a handoff, and an evidence view supports tracing a finding to its source. Use one representative record in the same stage across all desktop and mobile previews. If the user then asks about a surface treatment, compare it on the selected layout with the content, type scale and geometry held steady.
+
 Caption each preview with what the user sees first and how they start the primary task. When the user wants to pick, ask which sample to develop and wait for the choice. When the user delegates direction, identify the sample you recommend and continue. A clear reference or a local change goes directly to implementation unless the user requests alternatives.
 
 ## Design Pre-Analysis
@@ -64,6 +66,14 @@ Commit to a direction that fits the domain. Do not mix several moods because the
 Choose the subject that best demonstrates the page promise. At thumbnail size, check that its silhouette or main detail reads before surrounding panels, borders and labels. Adjust scale, crop, contrast and nearby empty space independently. Recompose for the narrow viewport and inspect the actual crop with the CTA visible. If a claim depends on a detail too small to see, show a close-up, an excerpt or a direct manipulation beside the claim.
 
 For a brand, culture or music page, inspect the resting frame with controls and motion mentally removed. Look for a composed image: a recognizable subject, a clear light or color relationship, and space for type. Inspect the playing or interactive frame separately. Keep important details and text readable when feedback overlays the artwork.
+
+### Change the focal point as work progresses
+
+For a workbench with multiple stages, sketch the first visit, the key intermediate state and the completed result using representative data. For each frame, name the user's immediate decision and the visible evidence they need. Before work starts, group the input with the first available action. After a step succeeds, place its saved result beside the next action. At completion, give the outcome and its supporting values the strongest position. Keep recovery available when an operation fails and show the last confirmed record.
+
+For handoffs and comparisons, identify the source of each value independently. Align corresponding fields and show meaningful values with raw detail collapsed. On a narrow comparison table, keep each field’s values adjacent. On a handoff timeline, keep the sender and receiver in sequence and show the same key fields in the same order in both nodes. Distinguish pending, empty and different values in text.
+
+Review actual desktop and mobile frames at those stages with secondary details closed. Read the first visible action or conclusion and point to the evidence for it. If the title, an empty report or a secondary control draws attention first, revise the composition. For before-and-after reviews, use the same scenario, viewport, scroll position and stage in each pair.
 
 ### Compose the scene around an interaction
 
@@ -123,6 +133,18 @@ For a new design or full redesign, record the existing tokens and any additions 
 - Assets: real or generated images, product renders, icons, logos, textures, diagrams, sprites, and their crop/aspect rules.
 
 Map recurring text roles such as headings, body copy, field labels and numeric values to the existing type scale. Check them with actual page text, including long labels and CJK fallback glyphs when applicable. Repeated UI must use shared tokens or reusable components. Differences should be named variants, not one-off copied styling.
+
+### Choose glass for a text-heavy surface
+
+Use light frosting when a panel boundary helps the reader group related evidence, such as the saved record and the received record on a timeline. Prefer a solid reading surface for dense row scanning, extended code or backgrounds whose contrast varies under the text. Keep the text opaque and blur the backdrop. Provide a legible solid fill when blur is unavailable or the reader requests reduced transparency.
+
+On mobile, give the background highlight its own layer. Reduce its opacity or move its brightest edge away from labels and values. Review the actual narrow crop at normal size with raw detail closed: can the reader name an item sent, find what arrived and tell whether they match? If the highlight draws the eye first, soften it again. See the [two-round workbench case](references/workbench-handoff.md) for the three compositions, material comparison and verification example.
+
+### Glass buttons at rest and on press
+
+When a workbench calls for glass controls, inspect the resting button on its actual background with the pointer away. Let the surface pick up the panel tint. Use a narrow reflection near the lit edge and a softer inner rim on the opposite edge to suggest thickness. Keep the label opaque and the center quiet. Check a close-up for material, then a full desktop and mobile frame for hierarchy. Give the next task action clear contrast. If an auxiliary action draws the eye before the data, narrow the highlight and soften the shadow while retaining the translucent center and edge reflection.
+
+On press, compress the surface layer slightly and let it settle after one small rebound. Keep the label, focus ring and hit area stable. Verify mouse press, touch contact, release and cancellation. Preserve native keyboard activation. With reduced motion, show contact through an inset shadow or tone change. See the [worked glass button example](references/workbench-handoff.md#玻璃按钮的静止按压与整页验收) for measured values and the reading check.
 
 ### Choose corner radii by role
 
